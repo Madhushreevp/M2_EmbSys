@@ -5,6 +5,7 @@ Research: -
 https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/
 
 https://www.migatron.com/distance-measurement-sensors/
+
 Ultrasonic sensors are used around the world, indoors and outdoors in the harshest conditions, for a variety of applications. An object passing within the pre-set range will be detected and generate an output signal. The detect point is independent of target size, material or reflectivity. Precise distance(s) of an object moving to and from the sensor are measured via time intervals between transmitted and reflected bursts of ultrasonic sound. Distance change is continuously calculated and outputted.
 
 Swot Analysis: -
