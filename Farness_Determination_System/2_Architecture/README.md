@@ -1,2 +1,2 @@
 Reference:
-https://electrosome.com/interfacing-hc-sr04-ultrasonic-sensor-arduino-uno/
+https://www.electronicwings.com/sensors-modules/ultrasonic-module-hc-sr04
