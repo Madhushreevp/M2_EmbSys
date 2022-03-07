@@ -11,6 +11,7 @@
 * [Implementation]
 * [Simulations & Outputs]
 * [Conclusion]
+* References
 
 
 
@@ -74,7 +75,9 @@ This chapter will focus on simulation and output part of the project.For simulat
 ![Output 05](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2005.PNG)
 ## Conclusion
 Thus, Farness Determination System was completed with fulfillment of requirements, with use of different approaches and finalizing the best suitable method.
-
+## References
+(https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/)
+(https://www.migatron.com/distance-measurement-sensors/)
 
 
 
