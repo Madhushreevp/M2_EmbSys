@@ -1,57 +1,15 @@
-Contents
-1 Introduction 1
-1.1 Motivation ...................................................................................................................1
-1.2 Aims and Objectives ...................................................................................................2
-1.3 Research ......................................................................................................................2
-1.3.1 SWOT Analysis ..........................................................................................3
-2 Design Requirements 5
-3 Architecture 7
-3.1 Working Principle.......................................................................................................7
-3.2 Work Flow...................................................................................................................8
-3.2.1 Part 01.............................................................................................................8
-3.2.2 Part 02.............................................................................................................9
-3.2.3 Part 03...........................................................................................................10
-4 Electronic Components 11
-4.1 Ultrasonic Sensor......................................................................................................11
-4.1.1 HC-SR04........................................................................................................11
-4.2 LCD 16x2 Display......................................................................................................12
-4.2.1 HD44780-4 LCD display ........................................................................ 12
-4.3 Micro-controller........................................................................................................12
-4.3.1 AVR ATMEGA 8 Micro-controller ......................................................... 13
-4.3.2 Arduino Micro-controller ............................................................................13
-5 Implementation 15
-5.1 Proposed Solution 01...............................................................................................15
-xii
-Contents xiii
-5.1.1 Atmega8 Code......................................................................................... 16
-5.2 Proposed Solution 02...............................................................................................16
-5.2.1 Arduino Code .......................................................................................... 16
-5.2.2 Circuit Diagram....................................................................................... 17
-6 Simulations and Output 19
-6.1 Steps for simulation : ...............................................................................................19
-6.2 TestPlan and Output ................................................................................................20
-6.3 Output and Results...................................................................................................20
-6.4 Conclusion.................................................................................................................21
+
 Introduction
 Over time, technology has gone through an evolution phase and hence has changed our
-living style significantly. In today’s era, most people prefer using the latest technologically advanced gadgets to perform their daily life activities. The drastic improvements
-in the world of technology have undoubtedly made life more convenient and enjoyable.
-Surely, you must have observed that the latest technological innovations have brought
-comfort to not only our standard of living but also in the ways we carry out business
-routine tasks.
+living style significantly. In today’s era, most people prefer using the latest technologically advanced gadgets to perform their daily life activities. The drastic improvements in the world of technology have undoubtedly made life more convenient and enjoyable.Surely, you must have observed that the latest technological innovations have brought comfort to not only our standard of living but also in the ways we carry out business routine tasks.
+
 1.1|Motivation
-Technology also allows doing business easier. Back in the days when we had to do
-things manually, doing business was harder as you had to capture data and other documents manually. And when you need to review the information you need, you’d still
-have to go over a pile of physical files. This eats so much time and effort before.These
-technologies include different types of embedded systems, operating systems and processing units.Embedded System has become an integral part of human lives though
-they are designed to function with minimal or no human interference. Aspects like low
-cost, compressed size, and simple design make them very popular. These systems, today, play a vital role in many devices, equipment instrumentation and home appliances
-and is likely to continue in the recent future.
-1
-1
-Chapter 1. Introduction1.2. Aims and Objectives
+Technology also allows doing business easier. Back in the days when we had to do things manually, doing business was harder as you had to capture data and other documents manually. And when you need to review the information you need, you’d still have to go over a pile of physical files. This eats so much time and effort before.These technologies include different types of embedded systems, operating systems and processing units.Embedded System has become an integral part of human lives though they are designed to function with minimal or no human interference. Aspects like low cost, compressed size, and simple design make them very popular. These systems, today, play a vital role in many devices, equipment instrumentation and home appliances and is likely to continue in the recent future.
+
+Chapter 1. Introduction
+1.2. Aims and Objectives
 1.2|Aims and Objectives
-Generally, the embedded systems are explained as the collection of hardware and software components. But just saying this is not the proper explanation of embedded systems. Because it is the system with hardware devices, software integration, and all
+Generally, the embedded systems are explained as the collection of hardware and software components. But just saying this is not the proper explanation of embedded systems. Because it is the system with hardware devices, software integration, and all
 those embedded together to perform the specified task. There are several purposes and
 work for developing the embedded system.This paper revolves around one such project
 which is based on use of embedded systems.The professions relating to construction,
