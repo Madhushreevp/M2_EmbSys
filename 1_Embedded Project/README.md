@@ -37,9 +37,13 @@ Project design is an early phase of the project life-cycle where ideas, processe
 ## Architecture
 The project works on certain principle.To calculate a certain distance in any medium we need the speed and the time component of that medium.So in this project we consider frequency pulse and time for reflection as speed and time components respectively.Thus the source will generate a wave of certain frequency which will be obstructed by the object in it’s path.The same is reflected back in form of echo signal. This is distance which is of concern.
 ![Working Principle](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/Working%20Principle.PNG)
+
 ![flwcht1](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht1.PNG)
+
 ![flwcht2](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht2.PNG)
+
 ![Block Diagram](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/Block%20Diagram.png)
+
 
 
 ## Implementation
@@ -53,20 +57,20 @@ This solution uses Arduino as controller.The algorithm will interface LCD and th
 ## Simulations & Outputs
 This chapter will focus on simulation and output part of the project.For simulation of the project a software known as SimulIDE is used.SimulIDE is a real-time electronic circuit simulator with PIC, AVR, and Arduino simulation.From the two approaches listed in the previous chapter,Arduino code is simulated in the software.After running the codes of the respective programs HEX files are generated.These files need to dumped into software of simulation.
 ## Steps for simulation
--Download, install, and start the software.
--Drag and drop the various components as described in the code.
--Connect the ports and components respectively.
--Dump the HEX file generated into the Arduino micro-controller.
--Compile and run the circuit without any errors.
--Power up the circuit using the red button.
--To capture different outputs,change the voltage from volts display window.
+1. Download, install, and start the software.
+2. Drag and drop the various components as described in the code.
+3. Connect the ports and components respectively.
+4. Dump the HEX file generated into the Arduino micro-controller.
+5. Compile and run the circuit without any errors.
+6. Power up the circuit using the red button.
+7. To capture different outputs,change the voltage from volts display window.
 ## TestPlan and Output
 ![TestPlan&Output](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/TestPlan&Output.PNG)
 ## Output and Results
 ![Output 01](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2001.PNG)
+
 ![Output 02](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2002.PNG)
-![Output 03](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2003.PNG)
-![Output 04](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2004.PNG)
+
 ![Output 05](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2005.PNG)
 ## Conclusion
 Thus, Farness Determination System was completed with fulfillment of requirements, with use of different approaches and finalizing the best suitable method.
