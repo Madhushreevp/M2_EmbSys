@@ -1,5 +1,4 @@
 # Farness Determination System
-> The professions relating to construction, such as architecture, surveying, carpentry, masonry, locksmiths, etc require a very important system which can calculate distance and proximities between an object and a target. This distance can be in form of height, sorting, diameter, positioning, dimensioning and many more. One such application where distance needs to be calculated is of object detection system. In this, objects can be detected for security, counting, inventory or robotic obstacle avoidance. A sensor which can be used for farness determination is ultrasonic sensor. Thus, in this project we calculate distance using ultrasonic sensor and a microcontroller.
 
 ## Table of Contents
 * Introduction
