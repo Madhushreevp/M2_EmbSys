@@ -26,51 +26,51 @@ Generally, the embedded systems are explained as the collection of hardware and 
 ## Research
 There are many components used in this project while designing the system.Prior to design of any system a thorough analysis and study is required for accurate outcome of project. The primary goal of the research is to guide action, gather evidence for theories, and contribute to the growth of knowledge in data analysis.The research is important in business decision-making because it can assist in making better decisions when combined with their experience and intuition.Analysis is the process of analyzing data in various formats. Even though data is abundant nowadays, it’s available in different forms and scattered over various sources.The analysis helps to clean and transform all this data into a consistent form so it can be effectively studied. One such method of research is SWOT Analysis.A SWOT analysis is an incredibly simple, yet powerful tool to help develop a project.SWOT stands for Strengths, Weaknesses, Opportunities, and Threats.
 
-![SWOT](1_Embedded Project/1_Requirements/SWOT.PNG)
+![SWOT](https://github.com/Madhushreevp/M2_EmbSys/blob/0f036504dbe97ab47c2871c8cc72160385cae14e/1_Embedded%20Project/1_Requirements/SWOT.PNG)
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+## Requirements
+Project design is an early phase of the project life-cycle where ideas, processes are planned out. This involves clearly defining the design requirements so as to form a sound foundation for the design process. There are different types of requirements.A good requirement states something that is necessary, verifiable, and attainable.A bad requirement is where the specifications aren’t well defined and consists of much rework.This portion of the paper explains about requirements considered while designing the project.It includes two different levels of requirements.
+![Requirements](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/1_Requirements/Requirements.PNG)
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## Architecture
+The project works on certain principle.To calculate a certain distance in any medium we need the speed and the time component of that medium.So in this project we consider frequency pulse and time for reflection as speed and time components respectively.Thus the source will generate a wave of certain frequency which will be obstructed by the object in it’s path.The same is reflected back in form of echo signal. This is distance which is of concern.
+![Working Principle](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/Working%20Principle.PNG)
+![flwcht1](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht1.PNG)
+![flwcht2](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht2.PNG)
+![Block Diagram](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/Block%20Diagram.png)
 
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Implementation
+This chapter of the paper focuses on the implementation part of the project. The coding and algorithm used for completion of the project is explained here.The chapter proposes two different solutions.After the analysis of both solutions ,one solution will be finalised for the simulation.
+-|Proposed Solution 01
+This solution uses AVR Atmega8 as the micro-controller.The code can be implemented in many ways. One such method is including all the library functions and function declarations in one header file .This header file will be used in coding as one single library required.The coding will interface the LCD on port D and sensor on port c with the micro-controller.The functions will initialise sensor and LCD both for respective transmissions.A function is defined for calculating a pulse width of the wave.This will be further used for measuring the distance.For sending commands to LCD and clearing the display of LCD there is need to define functions accordingly.Since the project is being simulated using software, so to capture outputs we define a cursor function.This function will measure the distance whenever the cursor is used .Using the pulse width the distance will be calculated and would be displayed in centimeters on the LCD.
+-|Proposed Solution 02
+This solution uses Arduino as controller.The algorithm will interface LCD and the ultrasonic sensor with the controller.The language used in Arduino is C++.Thus inbuilt keywords can be used for programming of the project.For the transmission and reception of the wave,several pins are enabled in the micro-controller.Once the distance is sensed it will be converted to inches and displayed on to the LCD.The outputs can be captured via change in the voltage which is operated by a knob.
+![Circuit Organization](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/4_Simulation/Circuit%20Organization.PNG)
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+## Simulations & Outputs
+This chapter will focus on simulation and output part of the project.For simulation of the project a software known as SimulIDE is used.SimulIDE is a real-time electronic circuit simulator with PIC, AVR, and Arduino simulation.From the two approaches listed in the previous chapter,Arduino code is simulated in the software.After running the codes of the respective programs HEX files are generated.These files need to dumped into software of simulation.
+## Steps for simulation
+-Download, install, and start the software.
+-Drag and drop the various components as described in the code.
+-Connect the ports and components respectively.
+-Dump the HEX file generated into the Arduino micro-controller.
+-Compile and run the circuit without any errors.
+-Power up the circuit using the red button.
+-To capture different outputs,change the voltage from volts display window.
+## TestPlan and Output
+![TestPlan&Output](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/TestPlan&Output.PNG)
+## Output and Results
+![Output 01](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2001.PNG)
+![Output 02](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2002.PNG)
+![Output 03](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2003.PNG)
+![Output 04](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2004.PNG)
+![Output 05](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/5_TestPlan&Output/Output%2005.PNG)
+## Conclusion
+Thus, Farness Determination System was completed with fulfillment of requirements, with use of different approaches and finalizing the best suitable method.
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
