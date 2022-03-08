@@ -36,6 +36,8 @@ Project design is an early phase of the project life-cycle where ideas, processe
 
 ## Architecture
 The project works on certain principle.To calculate a certain distance in any medium we need the speed and the time component of that medium.So in this project we consider frequency pulse and time for reflection as speed and time components respectively.Thus the source will generate a wave of certain frequency which will be obstructed by the object in it’s path.The same is reflected back in form of echo signal. This is distance which is of concern.
+
+
 ![Working Principle](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/Working%20Principle.PNG)
 
 
