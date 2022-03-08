@@ -12,7 +12,7 @@
 * Conclusion
 * References
 
-
+![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
 
 ## Introduction
 Over time, technology has gone through an evolution phase and hence has changed our living style significantly. In today’s era, most people prefer using the latest technologically advanced gadgets to perform their daily life activities. The drastic improvements in the world of technology have undoubtedly made life more convenient and enjoyable. Surely, you must have observed that the latest technological innovations have brought comfort to not only our standard of living but also in the ways we carry out business routine tasks.
