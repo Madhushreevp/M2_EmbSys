@@ -42,8 +42,8 @@ The project works on certain principle.To calculate a certain distance in any me
 The work flow represents the checking and verification while calculating the distance. This verification can be understood by use of flowchart.If the wave is reflected back then calculate the distance and display it on the LCD display.If the wave does not reflect back then go in loop and wait until it is reflected back.
 <p align="center">
   <img 
-    width="300"
-    height="300"
+    width="600"
+    height="600"
     src="https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht1.PNG"
   >
 </p>
