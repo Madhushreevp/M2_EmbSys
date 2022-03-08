@@ -44,7 +44,7 @@ The work flow represents the checking and verification while calculating the dis
   <img 
     width="300"
     height="300"
-    src="![flwcht1](https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht1.PNG)"
+    src="https://github.com/Madhushreevp/M2_EmbSys/blob/9c6de42aa3830aa6f6d4902857755a6b749d700a/1_Embedded%20Project/2_Architecture/flwcht1.PNG"
   >
 </p>
 
